@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\PlayerPaddle.cs" />
     <Compile Include="Assets\Scripts\ComputerPaddle.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\BouncySurface.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

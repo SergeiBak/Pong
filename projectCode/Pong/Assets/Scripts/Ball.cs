@@ -28,4 +28,9 @@ public class Ball : MonoBehaviour
 
         rb.AddForce(direction * speed);
     }
+
+    public void AddForce(Vector2 force)
+    {
+        rb.AddForce(force);
+    }
 }
