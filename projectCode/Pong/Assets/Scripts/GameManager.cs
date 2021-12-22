@@ -21,6 +21,19 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Paddle computerPaddle;
 
+    private AudioSource audSource;
+    [SerializeField]
+    private AudioClip paddleHitSound;
+    [SerializeField]
+    private AudioClip wallHitSound;
+    [SerializeField]
+    private AudioClip scoreSound;
+
+    private void Awake()
+    {
+        audSource = GetComponent<AudioSource>();
+    }
+
     public void PlayerScores()
     {
         playerScore++;
@@ -39,9 +52,26 @@ public class GameManager : MonoBehaviour
 
     private void ResetRound()
     {
+        PlayScoreSound();
+
         playerPaddle.ResetPosition();
         computerPaddle.ResetPosition();
         ball.ResetPosition();
         ball.AddStartingForce();
+    }
+
+    private void PlayScoreSound()
+    {
+        audSource.PlayOneShot(scoreSound);
+    }
+
+    public void PlayWallHitSound()
+    {
+        audSource.PlayOneShot(wallHitSound);
+    }
+
+    public void PlayPaddleHitSound()
+    {
+        audSource.PlayOneShot(paddleHitSound);
     }
 }
