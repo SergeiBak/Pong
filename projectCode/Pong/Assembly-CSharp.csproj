@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\ScoringZone.cs" />
     <Compile Include="Assets\Scripts\BloomColorChange.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\TwoPlayerPaddle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

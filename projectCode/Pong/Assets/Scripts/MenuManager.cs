@@ -12,6 +12,6 @@ public class MenuManager : MonoBehaviour
 
     public void TwoPlayer()
     {
-
+        SceneManager.LoadScene("TwoPlayer");
     }
 }
