@@ -15,7 +15,7 @@ This project is a recreation of the classic arcade game known as Pong, one of th
 Pong consists of two paddles on either sides of the screen & a ball. The goal is to deflect the ball from going into the goal on your side of the board. Get the ball into your opponents goal to score! I have setup a single player mode in which you have control over one paddle against the computer, and a two player mode where you have control over both paddles.
 
 ## Test The Project!
-In order to play this version of Pong, follow the [link](https://sergeibak.github.io/PersonalWebsite/FlappyBird.html) to a in-browser WebGL build (No download required!).
+In order to play this version of Pong, follow the [link](https://sergeibak.github.io/PersonalWebsite/pong.html) to a in-browser WebGL build (No download required!).
 
 ## Code
 A brief description of all of the classes is as follows:
