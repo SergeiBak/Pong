@@ -1542,7 +1542,7 @@ MonoBehaviour:
   playerPaddle: {fileID: 602732355}
   computerPaddle: {fileID: 2132298245}
   paddleHitSound: {fileID: 8300000, guid: 74848970d1b226445a7f745c5b453874, type: 3}
-  wallHitSound: {fileID: 8300000, guid: 3097af9fe4c779e4ba78e605519bf945, type: 3}
+  wallHitSound: {fileID: 8300000, guid: ea25e940a69e31f4d9a247499fe985f2, type: 3}
   scoreSound: {fileID: 8300000, guid: 0cbaa95b120f9ff4fa6c84c7f586f677, type: 3}
 --- !u!4 &1757914359
 Transform:
